@@ -1,0 +1,21 @@
+{
+    "name": "ttyz/messagebus",
+    "description": "Simple Message Bus implementation",
+    "type": "library",
+	"autoload": {
+		"psr-4": {
+			"MessageBus\\": "src"
+		}
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny Morozov",
+            "email": "Evgeny.Morozov@t-systems.com"
+        }
+    ],
+    "require": {}
+}
